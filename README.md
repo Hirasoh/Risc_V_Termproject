@@ -1,10 +1,10 @@
 Github link
 https://github.com/Hirasoh/Risc_V_Termproject
 
- Single Cycle CPU:
+ #Single Cycle CPU:
 In a single-cycle CPU, each instruction executes in a single clock cycle. This means that the CPU takes one clock cycle to fetch, decode, execute, and write back an instruction. All instructions, regardless of complexity, take the same amount of time to execute. While it simplifies the design, it might not be the most efficient in terms of performance due to the possibility of idle time during the cycle.
 
-•	Test Case for Single Cycle CPU:
+1. Test Case for Single Cycle CPU:
 •	Load immediate value into register
 •	LI R1, 10   # Load immediate value 10 into register R1
 •	Add values from two registers
